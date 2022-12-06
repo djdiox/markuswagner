@@ -1,26 +1,18 @@
 {
-  "name": "5-min-new",
-  "version": "1.0.0",
-  "private": true,
+  "name": "markuswagner.dev",
+  "version": "2.0.0",
+  "description": "My personal Homepage",
+  "license": "MIT",
+  "type": "module",
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
-  },
-  "dependencies": {
-    "@nuxtjs/axios": "^5.13.6",
-    "@nuxtjs/composition-api": "^0.32.0",
-    "@storyblok/nuxt-2": "^1.0.2",
-    "core-js": "^3.19.3",
-    "nuxt": "^2.15.8",
-    "vue": "^2.6.14",
-    "vue-server-renderer": "^2.6.14",
-    "vue-template-compiler": "^2.6.14",
-    "webpack": "^4.46.0"
+    "docs:build": "vuepress build src",
+    "docs:clean-dev": "vuepress dev src --clean-cache",
+    "docs:dev": "vuepress dev src"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^4.2.1",
-    "postcss": "^8.4.4"
+    "@vuepress/client": "2.0.0-beta.53",
+    "vue": "^3.2.45",
+    "vuepress": "2.0.0-beta.53",
+    "vuepress-theme-hope": "2.0.0-beta.134"
   }
 }
