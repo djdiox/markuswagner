@@ -7,7 +7,7 @@ set -e
 npm run docs:build
 
 # navigate into the build output directory
-cd docs/.vuepress/dist
+cd ../docs/.vuepress/dist
 
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
@@ -19,7 +19,7 @@ git commit -m 'deploy'
 # if you are deploying to https://djdiox.github.io
 git push -f git@github.com:djdiox/djdiox.github.io.git master
 
-# if you are deploying to https://djdiox.github.io/<REPO>
-# git push -f git@github.com:djdiox/<REPO>.git master:gh-pages
+# if you are deploying to https://djdiox.github.io/markuswagner
+# git push -f git@github.com:djdiox/markuswagner.git master:gh-pages
 
 cd -
