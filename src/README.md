@@ -4,8 +4,8 @@ layout: Blog
 icon: home
 title: Markus Wagner's Homepage
 heroImage: /logo.svg
-heroText: the name of your blog
-tagline: You can put your slogan here
+heroText: Portfolio, Self-Introduction and my personal Blog.
+tagline: I see in every Problem, a chance to grow and avoid mistakes 
 heroFullScreen: true
 projects:
   - icon: project

@@ -10,11 +10,11 @@ export default defineUserConfig({
       title: "Markus Wagner's Homepage",
       description: "Hi! just want to introduce myself and some tools I use, built, extend or even self build!!",
     },
-    "/de-DE/": {
-      lang: "de-DE",
-      title: "Markus Wagner's Homepage",
-      description: "Hallo! Ich wollte mich hiermit vorstellen und tools die ich benutze, erweitere oder sogar von mir gebaut wurden!",
-    },
+    // "/de/": {
+    //   lang: "de",
+    //   title: "Markus Wagner's Homepage",
+    //   description: "Hallo! Ich wollte mich hiermit vorstellen und tools die ich benutze, erweitere oder sogar von mir gebaut wurden!",
+    // },
   },
 
   theme,
